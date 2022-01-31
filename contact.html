@@ -80,11 +80,11 @@
     </div>
     <div class="section-container-spacer">
       <form action="https://formsubmit.co/venibonnie@gmail.com" class="reveal-content" method="post" enctype="text/plain">
-        
         <div class="col-md-6">
           <div class="form-group">
-            <input type="text" class="form-control" id="email" placeholder="Please enter your email address or contact number">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Please enter your email address here">  
           </div>
+          <input type="hidden" name="_next" value="https://pnhealthyfood.epizy.com/thanks.html">
           <div class="form-group">
             <input type="text" class="form-control" name="_subject" id="subject" placeholder="Subject" autocomplete="off">
           </div>
@@ -93,8 +93,7 @@
           </div>
           <button type="submit" class="btn btn-primary btn-lg">Send</button>
           
-          <input type="hidden" name="_next" value="https://pnhealthyfood.epizy.com/thanks.html">
-
+          <input type="hidden" name="_captcha" value="false">
         <ul class="list-unstyled address-container mt-5">
           <li>
             <span class="fa-icon">
